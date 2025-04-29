@@ -34,11 +34,11 @@ I'm a passionate data science student currently focused on expanding my knowledg
 
 ## 🏆 GitHub Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=nord&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Mrnidhi&theme=nord&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </div>
 
 ## 📊 GitHub Activity
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20views&color=0e75b6&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=Mrnidhi&label=Profile%20views&color=0e75b6&style=flat)
 
 ## 📫 Let's Connect
 - LinkedIn: [linkedin.com/in/srinidhi-gowda-73a308273](https://www.linkedin.com/in/srinidhi-gowda-73a308273/)
