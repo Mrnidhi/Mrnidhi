@@ -35,18 +35,18 @@ Here's some work I'm actually proud of. Check out the repos if anything catches 
 <tr>
 <td width="50%">
 
-### 🎬 [Real-time YouTube Analytics Dashboard](https://github.com/Mrnidhi)
+### 🎬 [Real-time YouTube Analytics Dashboard](https://github.com/Mrnidhi/yt-analysis.git)
 
 Okay so this was fun. I built a complete serverless pipeline that pulls YouTube metrics, converts everything from JSON to Parquet (huge performance win), and pushes it all to dashboards that product teams can actually use.
 
-**Results:** 90% less manual data prep, 5x faster queries with Parquet optimization, real-time KPIs for non-technical users
+**Results:** 90% less manual data prep, 5x faster queries with Parquet optimization, sub-second insights for 10k+ records
 
-**Stack:** AWS Lambda, Glue, Athena, S3, Apache Airflow, Spark/PySpark, Tableau, QuickSight
+**Stack:** AWS Lambda, Glue, Athena, S3, Apache Airflow, Spark, Tableau, QuickSight
 
 </td>
 <td width="50%">
 
-### 🤖 [AI Customer Support Assistant](https://github.com/Mrnidhi)
+### 🤖 [AI Customer Support Assistant](https://github.com/Mrnidhi/Customer-Support-assistant)
 
 Built this RAG-powered assistant that searches through 10k+ old support tickets to answer new questions. Basically like having the entire support history at your fingertips, instantly. Customers were impressed with the 95% answer accuracy.
 
@@ -59,7 +59,7 @@ Built this RAG-powered assistant that searches through 10k+ old support tickets 
 <tr>
 <td width="50%">
 
-### 🏗️ [Azure Medallion Data Pipeline](https://github.com/Mrnidhi)
+### 🏗️ [Azure Medallion Data Pipeline](https://github.com/Mrnidhi/ETL-azure.git)
 
 This one was about doing data engineering properly. Implemented a full Bronze-Silver-Gold lakehouse architecture on Azure Databricks. The kind of thing that actually scales when you're pulling in 100k+ records from 8 different sources.
 
@@ -70,37 +70,79 @@ This one was about doing data engineering properly. Implemented a full Bronze-Si
 </td>
 <td width="50%">
 
-### 🔒 [Sensitive Data Classifier](https://github.com/Mrnidhi)
+### 🔒 [Sensitive Data Classifier](https://github.com/Mrnidhi/Sensitive_Data_Classification)
 
 Ever need to find sensitive info in images or docs? Built a CNN + OCR system that does exactly that, super useful for data governance teams. Drag-and-drop web interface so no technical skills needed.
 
-**Accuracy:** 98% F1 score for detecting sensitive data, 4-layer CNN with ~6.7M parameters
+**Accuracy:** 98% F1 score on 600 images, 4-layer CNN with ~6.7M parameters
 
-**Stack:** TensorFlow.js, Python, Tesseract OCR
+**Stack:** TensorFlow.js, Python, Tesseract OCR, Docker
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🔄 [Multi-Agent AI Platform](https://github.com/Mrnidhi)
+### 🔄 [Multi-Agent AI Platform](https://github.com/Mrnidhi/multi-agent-ai)
 
 This is where things get interesting. I experimented with AI agents that actually collaborate. They designed, coded, and deployed a trading simulation together. Watching them work is honestly pretty cool, especially with 95% test coverage across 25+ edge cases.
 
-**Efficiency:** Cut the dev cycle by 60%, basically automated the whole development process
+**Efficiency:** Cut the dev cycle by 60%, prevented 100% of invalid transactions
 
-**Stack:** CrewAI, Python, Gradio, PyTest
+**Stack:** CrewAI, Python, Gradio, OpenAI GPT-4
 
 </td>
 <td width="50%">
 
-### ✈️ [Aviation Visibility Predictor](https://github.com/Mrnidhi)
+### ✈️ [Aviation Visibility Predictor](https://github.com/Mrnidhi/visibility_prediction.git)
 
-Built this for aviation safety. Predicts low-visibility events using weather data. Added custom meteorological features because standard ones weren't cutting it. Containerized for easy deployment.
+Built this for aviation safety. Predicts low-visibility events using weather data and physics-based features like dewpoint calculations. Added custom meteorological transformers because standard ones weren't cutting it.
 
-**Performance:** 45% better RMSE than baseline models, real-time API with uncertainty estimates
+**Performance:** 45% better RMSE, 25% accuracy boost in critical low-visibility conditions
 
 **Stack:** scikit-learn, Flask, Docker, Python
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 💰 [Intelligent Financial Research Platform](https://github.com/Mrnidhi/financial-research-ai)
+
+Built an agentic system that automates financial research. It scrapes web data, processes unstructured info, and generates structured investment reports. Reduced hours of manual work to just minutes.
+
+**Speed:** 95% reduction in research time, 90% report accuracy with 100% automated processing
+
+**Stack:** CrewAI, OpenAI GPT-4, Python, SerperDev API
+
+</td>
+<td width="50%">
+
+### 📊 [Agentic Cost-Performance Analyzer](https://github.com/Mrnidhi/agentic-cost-performance-analysis.git)
+
+Analyzed 10k+ LLM performance logs to figure out which AI models work best for specific agent types. Built clustering algorithms to match the right LLM to the right task, saving both time and compute costs.
+
+**Optimization:** 40% performance improvement, 60% faster decision-making, 95% data quality
+
+**Stack:** NumPy, Pandas, Python, Clustering Algorithms
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🎬 [Netflix Recommendation System](https://github.com/Mrnidhi/NetFlix_Recommadation.git)
+
+Built a content-based recommendation engine analyzing 8,807 Netflix titles. Used TF-IDF vectorization and cosine similarity to suggest movies based on what you've watched. Pretty fun exploring the data patterns too.
+
+**Scale:** 8,807 titles analyzed, content-based filtering with genre and geographic pattern insights
+
+**Stack:** Python, scikit-learn, Pandas, matplotlib, seaborn
+
+</td>
+<td width="50%">
+
+<!-- Placeholder for future projects -->
 
 </td>
 </tr>
